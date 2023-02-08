@@ -111,6 +111,7 @@ input[value="2021-11-05"]{
     background: #EFEFEF;
     border: 1px solid;
     color: #747474;
+    border-color: #ADADAD;
 }
 
 .date{
@@ -159,11 +160,12 @@ input[id="Purged"], label[for="Purged"]{
 }
 
 .img{
-    background-image: url(/ımg/search.png);
+    background-image: url(../page3/ımg/search.png);
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 0px;
     border: 1px solid;
+    border-color: #ADADAD;
 }
 
 input[value="Next"], input[type="submit"]{

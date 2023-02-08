@@ -28,7 +28,7 @@ body{
 .img{
     width: 392px;
     height: 666px;
-    background-image: url(/page2/img2/Figure.png);
+    background-image: url(../page2/img2/Figure.png);
     background-repeat: no-repeat;
     margin-top: 117px;
     margin-left: 143px;

@@ -27,7 +27,7 @@ body{
 .img{
     width: 683px;
     height: 551px;
-    background-image: url(/page1/img1/login\ 1.png);
+    background-image: url(../page1/img1/login\ 1.png);
     background-repeat: no-repeat;
     margin-top: 190px;
 }
