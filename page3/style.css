@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: 'Public Sans'; /* 1 */
+  font-size: 16px; /* 1 */
+  line-height: 2; /* 1 */
+  margin: 0; /* 2 */
+    font-style: normal;
+    color: #171717;
+}
+
+.questionnaire{
+    min-width: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+form{
+    width: 904px;
+    height: 2260px;
+    background: #F9F9F9;
+    padding: 0 45px;
+    margin: 0 auto;
+}
+
+.form__title{
+    width: 194px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 64px;
+    margin-left: 4px;
+}
+
+.Mandatory{
+    width: 129px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 79px;
+}
+
+.red{
+    color: #D83933;
+}
+
+.title__type{
+    width: 210px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.type{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+label{
+    width: 392px;
+    height: 20px;
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+select, input{
+    width: 392px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+select[id="app"], input[value="Rajaneesh Banal"]{
+    color: #0050D8;
+}
+
+input[value="2021-11-05"]{
+    background: #EFEFEF;
+    border: 1px solid;
+    color: #747474;
+}
+
+.date{
+    text-align: center;
+    padding: 0px;
+}
+
+.checkbox{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 6px;
+}
+
+.box__checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+input[id="id"]{
+    accent-color: #FF00FF;
+}
+
+.checkbox__label{
+    width: 360px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+}
+
+input[id="Purged"], label[for="Purged"]{
+    margin-top: 133px;
+}
+
+.margin__top{
+    margin-top: 40px;
+}
+
+.img{
+    background-image: url(/ımg/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 0px;
+    border: 1px solid;
+}
+
+input[value="Next"], input[type="submit"]{
+    background: #0050D8;
+    border: none;
+    width: 69px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 0;
+    margin-top: 16px;
+    margin-left: 745px;
+}

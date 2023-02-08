@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+button,
+input { /* 1 */
+    overflow: visible;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+.container{
+    width: 1440px;
+    height: 1024px;
+    background: #001124;
+    display: flex;
+}
+
+.img{
+    width: 392px;
+    height: 666px;
+    background-image: url(/page2/img2/Figure.png);
+    background-repeat: no-repeat;
+    margin-top: 117px;
+    margin-left: 143px;
+}
+
+.wrapper{
+    width: 361px;
+    height: 809px;
+    margin: 107px 315px 108px 229px ;
+}
+
+.regist{
+    width: 353px;
+    height: 62px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 62px;
+    color: #FFFFFF;
+    
+}
+
+label{
+    width: 48px;
+    height: 29px;
+    font-family: 'Padauk';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+input{
+    width: 361px;
+    height: 43px;
+    padding: 0;
+    border: none;
+}
+
+.form{
+    width: 212px;
+    height: 29px;
+    font-family: 'Padauk';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #499FFE;
+}
+
+a{
+    text-decoration: none;
+    color: #499FFE;
+}
+
+button .btn{
+    width: 69px;
+    height: 29px;
+    font-family: 'Padauk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+button{
+    width: 180px;
+    height: 43px;
+    background: #015FC7;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 37px;
+    margin-left: 91px;
+}
+
+button>a{
+    color: #FFFFFF;
+}

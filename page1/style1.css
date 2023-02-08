@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+button,
+input { /* 1 */
+    overflow: visible;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+.container{
+    width: 1440px;
+    height: 1024px;
+    background: #001124;
+    display: flex;
+}
+
+.img{
+    width: 683px;
+    height: 551px;
+    background-image: url(/page1/img1/login\ 1.png);
+    background-repeat: no-repeat;
+    margin-top: 190px;
+}
+
+.wrapper{
+    width: 363px;
+    height: 374px;
+    margin: 233px 290px 417px 104px ;
+}
+
+.login{
+    width: 112px;
+    height: 62px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+label{
+    width: 44px;
+    height: 29px;
+    font-family: 'Padauk';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+input{
+    width: 361px;
+    height: 43px;
+    padding: 0;
+    border: none;
+}
+
+.form{
+    width: 212px;
+    height: 29px;
+    font-family: 'Padauk';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #499FFE;
+}
+
+a{
+    text-decoration: none;
+    color: #499FFE;
+}
+
+button .btn{
+    width: 55px;
+    height: 29px;
+    font-family: 'Padauk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+button{
+    width: 180px;
+    height: 43px;
+    background: #015FC7;
+    padding: 0;
+    border: 0;
+    margin-top: 14px;
+}
+
+button>a{
+    color: #FFFFFF;
+}
